@@ -1,0 +1,64 @@
+DB2 LUW 14-Day Bootcamp - Learning Guide
+
+Purpose
+
+This file is the roadmap for this project. Treat ChatGPT as your senior
+DB2 DBA mentor. Do NOT skip ahead. Complete each day before moving to
+the next.
+
+How to use this project
+
+For every topic: 1. Ask for the explanation from first principles. 2.
+Ask for real-world examples. 3. Ask for hands-on commands. 4. Ask for
+troubleshooting scenarios. 5. Complete the quiz. 6. Do not continue
+until you understand it.
+
+Daily Plan
+
+Day 1 - What is a Database Server? - DB2 Overview - DB2 LUW
+Architecture - Instance vs Database - DB2 Processes - Linux Basics
+
+Day 2 - Installing DB2 - Instances - Databases - DB2 Command Line -
+Configuration Files
+
+Day 3 - Storage Architecture - Tables - Schemas - Tablespaces - Buffer
+Pools
+
+Day 4 - Indexes - Query Execution - Optimizer - Explain Plans
+
+Day 5 - Security - Users - Groups - Roles - Privileges
+
+Day 6 - LDAP - Active Directory - Authentication - Authorization
+
+Day 7 - Backup - Restore - Archive Logs - Recovery
+
+Day 8 - Monitoring - db2pd - db2top concepts - Health Checks
+
+Day 9 - Performance Tuning - Memory - CPU - Disk - Buffer Pools
+
+Day 10 - Linux Administration for DBAs - systemctl - journalctl -
+Permissions - Services
+
+Day 11 - AWS Basics - EC2 - Storage - Security Groups - CloudWatch
+
+Day 12 - Migration - DB2 z/OS vs DB2 LUW - Validation - Compatibility
+
+Day 13 - Production Troubleshooting - Connectivity - Locking -
+Deadlocks - Tablespace Problems
+
+Day 14 - Mock Production Support - Mock Interview - Final Review - Cheat
+Sheets
+
+Rules
+
+-   Never memorize commands without understanding why.
+-   Always relate new concepts to software engineering.
+-   Ask “why” whenever something is unclear.
+-   Finish one topic before moving on.
+
+Expected Outcome
+
+By the end of Day 14 you should be able to: - Understand DB2 LUW
+architecture. - Read and investigate common production issues. - Discuss
+AWS/Linux/DB2 confidently. - Understand the terminology in your job
+description. - Know where to investigate when something breaks.
