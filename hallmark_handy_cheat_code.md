@@ -157,7 +157,26 @@
    ```
 
 3. Search User's AD groups
+
    ```
    ldapsearch -x -H ldap://SERVER:389 -D 'BIND_DN' -W \
    -b 'BASE_DN' '(sAMAccountName=USER)' memberOf
    ```
+
+4. Check DB2 Group retrieval
+
+```
+db2 "SELECT * FROM TABLE (SYSPROC.AUTH_LIST_GROUPS_FOR_AUTHID('HMK_MASTER\PYF522')) AS T"
+```
+
+5. Check Authentication parameters in config:
+
+```
+db2 get dbm cfg | egrep -i 'SRVCON_PW_PLUGIN|GROUP_PLUGIN|AUTHENTICATION|SRVCON_AUTH'
+```
+
+6. Check db2 grant:
+
+```
+db2 "SELECT GRANTEE, GRANTEETYPE, CONNECTAUTH FROM SYSCAT.DBAUTH where GRANTEE = 'DB2DB_ACCESS'"
+```
