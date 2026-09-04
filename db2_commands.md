@@ -24,6 +24,12 @@ Connect with the Database
 db2 connect to TESTDB
 ```
 
+Check your connection state
+
+```
+db2 get connection state
+```
+
 Check database servers
 
 ```
