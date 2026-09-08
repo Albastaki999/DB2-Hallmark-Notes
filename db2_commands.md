@@ -18,6 +18,24 @@ Create Database
 db2 create database TESTDB
 ```
 
+Drop Database
+
+```
+db2 drop database <dbname>
+```
+
+Activate Database
+
+```
+db2 activate database <dbname>
+```
+
+Deactivate Database
+
+```
+db2 deactivate database <dbname>
+```
+
 Connect with the Database
 
 ```
@@ -72,12 +90,6 @@ Check Active Databases
 
 ```
 db2 list active databases
-```
-
-Describe Table
-
-```
-db2 describe table EMPLOYEE
 ```
 
 Describe Table
